@@ -1,0 +1,32 @@
+<!--合作客户 开始->
+#myClient .exhibitionActivity{
+	margin:0 auto;	
+	background-color: #f5f5f5;
+}
+
+#myClient .exhibitionActivity .activity{
+	margin:0 auto;
+	width: 195px;
+	font-size:24px;  
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 20px;
+	font-family: frutigernext_medium,frutigernext, "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+#myClient .exhibitionActivity ul{
+	width:1170px;
+	margin:0 auto;
+	overflow: hidden;	  
+}
+
+#myClient .exhibitionActivity ul li img{
+	width: 100%;
+}
+
+#myClient .exhibitionActivity ul li{
+	width: 140px;
+	height:100px;
+	float:left;margin-right:117px;  margin-bottom: 15px; 
+}					
+<!--合作客户 结束->

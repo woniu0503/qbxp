@@ -1,42 +1,27 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>棋布星盘</title>
-    <meta name="description" content="新版本">
-    <meta name="keywords" content="传媒">
+    <meta name="description" content="棋布星盘">
+    <meta name="keywords" content="传媒，棋布星盘">
     <!--资源库文件引用-->
     <!--icon网页title小图标-->
     <link rel="shortcut icon" href="images/web_icon.ico" type="x-icon">
-
     <script src="js/jquery-1.9.1.js"></script>
     <!--字体 动画 基础CSS--> 
     <link rel="stylesheet" type="text/css" href="css/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"> 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"> 
     <script src="js/bootstrapValidator.min.js"></script>
-
     <script src="js/jquery.cookie.js" type="text/javascript"></script>
     <script src="js/jquery.serialize-object.min.js"></script>
     <script src="js/jquery.tmpl.min.js"></script>
     <script src="js/sea.js"></script>
     <script src="js/main.min.js"></script>
-    <script>
-        //document.domain = 'mingsoft.net';
-        ms.config({
-            base:"http://ms.mingsoft.net",
-            filter: {
-                people:{
-                   loginUrl:'#'
-                }
-            }
-        });
-    </script>
-
-
+ 
     <script src="js/base.js"></script>
 
     <link href="css/site.min.css-v5.css" rel="stylesheet">
@@ -47,106 +32,48 @@
     <link rel="stylesheet" type="text/css" href="css/shCoreDefault.css">
     <!--代码高亮-->
     <script src="js/shCore.js"></script>
-    <script> 
-    SyntaxHighlighter.all() //执行代码高亮 
-	</script>
+  
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://ms.mingsoft.net/templets/86/cms/js/html5shiv.min.js">
     </script>
     <![endif]-->
-    
-
     <!---首页幻灯-->
     <link href="css/index.css" rel="stylesheet">
     <link href="css/slide.css" rel="stylesheet">
+	<!---合作客户和页脚鼠标悬停二维码-->
+	<link rel="stylesheet" type="text/css" href="css/my_cus.css">
+	<link rel="stylesheet" type="text/css" href="css/qr_float.css" charset="utf-8">
     <script src="js/slider.js"></script>
 
-<style type="text/css">
-#myClient .exhibitionActivity{
-					margin:0 auto;	
-					background-color: #f5f5f5;
-}
-				#myClient .exhibitionActivity .activity{
-					margin:0 auto;
-					width: 195px;
-					font-size:24px;  text-align: center;
-					letter-spacing: 1px;
-					padding: 20px;
-					font-family: frutigernext_medium,frutigernext, "Microsoft YaHei", Arial, Helvetica, sans-serif;
-				}
-				#myClient .exhibitionActivity ul{
-					width:1170px;
-					margin:0 auto;
-					overflow: hidden;	  
-				}
-				#myClient .exhibitionActivity ul li img{
-					width: 100%;
-				}
-				#myClient .exhibitionActivity ul li{
-					width: 140px;
-					height:100px;
-					float:left;margin-right:117px;  margin-bottom: 15px; 
-				}
-</style>
 </head>
 
 <body class="home-template">
 <!---------------头部-------------->
-<div id="menu">
-  <div class="header-nav">
-    <ul class="daohang">
-      <li class="daohang_li" style="padding-left: 0px;text-align: left;"><a href="http://ms.mingsoft.net/html/86"><img src="images/logo.png"  style="margin-top:0px;"/></a></li> 
-
-      <li class="daohang_li"><a href="#">首页</a></li>
-
-      <li class="daohang_li daohang_li_parentmenu">产品与服务
-        <ul class="daohang_li_menu">
-          <li><a href="#">大屏广告</a></li>
-          <li><a href="#">公众号</a></li>
-          <li style="height:60px;"><a href="#">网站推广</a></li>
-        </ul>
-      </li>
- <li class="daohang_li"><a href="#" target="_blank">经典案例</a></li>
-      <li class="daohang_li daohang_li_parentmenu">新闻中心
-        <ul class="daohang_li_menu">
-          <li><a href="#">MCms手册</a></li>
-          <li><a href="#" onclick="clickevent();">MMall手册</a></li>
-          <li><a href="#" onclick="clickevent();">MBbs手册</a></li>
-          <li style="height:60px;"><a href="#" onclick="clickevent();">MWeixin手册</a></li>
-        </ul>
-      </li>
-
-      <li class="daohang_li daohang_li_parentmenu"><a href="#" target="_blank">运营团队</a></li>
-      <li class="daohang_li"><a href="html/weixin_location.html" target="_blank">联系我们</a></li>
-
-    </ul>
-    
-  </div>
-</div>
+<div id="topnav"></div>
 <!--头部end-->
 <!--大焦点图end-->
 <div id="banner_tabs" class="flexslider">
         <ul class="slides">
         
-            <li style="background:url(http://mingsoft.net/upload/article/86/1463818188253.jpg) no-repeat center;">
-                <p class="banner_tit animated fadeInLeft">棋布星盘</p>
-                <p class="banner_des animated fadeInRight">优质传媒 助力梦想</p>
+            <li style="background:url(images/b1.jpg) no-repeat center;">
+                <p class="banner_tit animated fadeInLeft">棋布星盘 创享无限</p>
+                <p class="banner_des animated fadeInRight">做策划 我们是认真的！</p>
             </li>
         
-            <li style="background:url(http://mingsoft.net/upload/article/86/1463818203668.jpg) no-repeat center;">
-                <p class="banner_tit animated fadeInLeft">MStore</p>
-                <p class="banner_des animated fadeInRight">丰富强大的功能插件、海量精美的行业模板</p>
+            <li style="background:url(images/b2.jpg) no-repeat center;">
+                <p class="banner_tit animated fadeInLeft">携手共建 攻坚克难</p>
+                <p class="banner_des animated fadeInRight">不管您刚起步，还是途遇瓶颈，我们都愿与您一起！</p>
             </li>
         
-            <li style="background:url(http://mingsoft.net/upload/article/86/1463818215565.jpg) no-repeat center;">
-                <p class="banner_tit animated fadeInLeft">优质的服务体验</p>
-                <p class="banner_des animated fadeInRight">人工远程协助服务、永久享受更新升级</p>
+            <li style="background:url(images/b3.jpg) no-repeat center;">
+                <p class="banner_tit animated fadeInLeft">优质团队 不求急进 只求踏实</p>
+                <p class="banner_des animated fadeInRight">细心于我们的服务，专心于我们的专业！</p>
             </li>
         
-            <li style="background:url(http://mingsoft.net/upload/article/86/1463818223779.jpg) no-repeat center;">
-                <p class="banner_tit animated fadeInLeft">小步快跑式升级</p>
-                <p class="banner_des animated fadeInRight">每月28号系统更新日、插件模板不定期上新</p>
+            <li style="background:url(images/b4.jpg) no-repeat center;">
+                <p class="banner_tit animated fadeInLeft">资源无限 筑梦发展</p>
+                <p class="banner_des animated fadeInRight">长春站千尺大屏、轻轨电视…您想做的，我们都有！</p>
             </li>
         
         </ul>
@@ -155,7 +82,7 @@
             <li><a class="flex-prev" href="javascript:;">Previous</a></li>
             <li><a class="flex-next" href="javascript:;">Next</a></li>
         </ul>
-    </div>
+</div>
 	<!--大焦点图end-->
 	   <!-- <div class="bc-social">
         <div class="container">
@@ -171,53 +98,42 @@
         </div>
     </div>-->
 	<div id="myClient">
-	<div class="exhibitionActivity">
-         		<p class="activity">我们的客户</p>
+	    <div class="exhibitionActivity">
+         		<p class="activity">我们的活动</p>
                 <ul>
-                	   <li><img src="http://www.mingsoft.net/templets/1/ming-soft//images/0.png"  alt="长期客户"/></li>
-                        <li><img src="http://www.mingsoft.net/templets/1/ming-soft//images/1.png"  alt="长期客户"/></li>                   
-                        <li><img src="http://www.mingsoft.net/templets/1/ming-soft//images/2.png"  alt="长期客户"/></li>   
-                         <li><img src="http://www.mingsoft.net/templets/1/ming-soft//images/3.png"  alt="长期客户"/></li>                       
-                        <li style="margin:0px"><img src="http://www.mingsoft.net/templets/1/ming-soft//images/4.png"  alt="长期客户"/></li>
+                	   <li><a href="http://mp.weixin.qq.com/s/HmKtVHynFkQ5sVHdOchzwQ" target="_blank">
+					   <img src="images/hd1.jpg" width="200" height="100"/></a></li>
+                        <li><a href="http://mp.weixin.qq.com/s/uU6sSI4dXzpf563nbJcAWw" target="_blank">
+						<img src="images/hd2.jpg" width="200" height="100"/></a></li>                   
+                        <li><a href="http://mp.weixin.qq.com/s/s0PQ1Eso4Jcq5w9GoYJxMQ" target="_blank">
+						<img src="images/hd3.jpg" width="200" height="100"/></a></li>   
+                         <li><a href="http://mp.weixin.qq.com/s/qbSnjnQ2wldAgJvqvu5-Rw" target="_blank">
+						 <img src="images/hd4.jpg"  width="200" height="100"/></a></li>                       
+                        <li style="margin:0px"><a href="http://mp.weixin.qq.com/s/s0PQ1Eso4Jcq5w9GoYJxMQ" target="_blank">
+						<img src="images/hd5.jpg" /></a></li>
                 </ul>
          </div>
-		  </div>
+     </div>
 	<!--footer start-->
-	<div id="footer" style="margin-top:0px">
-    <div class="footer-conten">
-        <ul>
-            <li><a target="_blank" href="#" style="padding-left:0px;">关于我们</a></li>
-        </ul>
-        <ul>
-            <li><a target="_blank" href="#">发展历程</a></li>
-        </ul>
-        <ul>
-            <li><a target="_blank" href="#" style="border:none;">联系我们</a></li>
-        </ul>
-        <ul style="float:right; padding-top: 18px;">
-            <li class="wbaibo"></li>
-            <li class="wbaidu"><a href="http://weibo.com/killfen" target="_blank"></a></li>
-            <li class="weixin"><a href="http://tieba.baidu.com/f?kw=%E9%93%AD%E9%A3%9E%E7%A7%91%E6%8A%80&fr=index&fp=0&ie=utf-8" target="_blank"></a></li>
-            <li style="position: relative;">
-                <p></p><img src="http://cdn.mingsoft.net/global/images/weixin.jpg" />
-            </li>
-        </ul>
-    </div>
-    <div class="footer-msg">
-        <p>版权所有 棋布星盘传媒有限公司2017-2020  &nbsp;&nbsp;&nbsp;技术支持：远方科技工作室</p>
-    </div>
-</div>
+	<div id="footview"></div>
 <!--footer end-->
+</div>
 </body>
 
 </html>
+
 <script>
-  $(document).ready(function(){
+  $("#topnav").load("header.html");
+  $("#footview").load("foot.html");
+ /* $(document).ready(function(){
+    
     $(".exhibitionActivity ul li img").hover(
       function(){
         $(this).attr("src","http://www.mingsoft.net/templets/1/ming-soft//images/"+$(this).parent().index()+"h.png");
       },function(){
         $(this).attr("src","http://www.mingsoft.net/templets/1/ming-soft//images/"+$(this).parent().index()+".png");
       });
-  });
+	  
+  });*/
+  
 </script>
