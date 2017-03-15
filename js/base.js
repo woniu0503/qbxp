@@ -1,4 +1,4 @@
-$(function() {alert("文档正在更新中8888！");
+$(function() {
     //头部菜单上移出现子菜单
     $(".daohang_li_parentmenu").hover(
       function(){
