@@ -1,16 +1,4 @@
 $(function() {
-var host = window.location.host;
-if (host=="www.ming-soft.com" ) {
-	location.href="http://www.mingsoft.net";
-} else if(host=="ms.ming-soft.com") {
-	location.href="http://ms.mingsoft.net";
-}else if (host=="ming-soft.com" ) {
-	location.href="http://www.mingsoft.net";
-}
-
-
-    $('[data-toggle="tooltip"]').tooltip();
-  
     //头部菜单上移出现子菜单
     $(".daohang_li_parentmenu").hover(
       function(){
