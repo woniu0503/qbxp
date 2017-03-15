@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
     //头部菜单上移出现子菜单
     $(".daohang_li_parentmenu").hover(
       function(){
@@ -10,7 +10,7 @@ $(document).ready(function() {
        $(this).removeClass("daohang_li_parentmenuhover");
      });
 
-  });
+ 
 
   function clickevent(){
     alert("文档正在更新中...本月上新！")
