@@ -1,4 +1,4 @@
-
+$(function() {
     //头部菜单上移出现子菜单
     $(".daohang_li_parentmenu").hover(
       function(){
@@ -9,7 +9,7 @@
        $(this).find(".daohang_li_menu").slideUp(100);
        $(this).removeClass("daohang_li_parentmenuhover");
      });
-
+ });
  
 
   function clickevent(){
