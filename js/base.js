@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     //头部菜单上移出现子菜单
     $(".daohang_li_parentmenu").hover(
       function(){
