@@ -47,7 +47,8 @@
     <script src="js/slider.js"></script>
 	<script src="js/device.js"></script>
 <script type="text/javascript">
-if(device.mobile()){
+//if(device.mobile()){
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ){
 window.location.href = "weixin_index.html";  //可以换成http地址
 }
 </script>
